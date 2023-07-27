@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  color: red;
+}
+
+h1 {
+  font-family: Haunted;
+  color: red;
+}
+
+a {
+  color: yellow;
+}
+
+p {
+  color: electric-blue;
+}
+
+.button-style {
+  background-color: purple;
+  color: electric-blue;
+}

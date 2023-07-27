@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+      <head>
+        <title>The Supreme Overlord May Have the Munchies</title>
+        <link rel="stylesheet" href="{% static 'base.css' %}">
+      </head>
+      <body>
+        <header>
+          <h1>Supreme Overlord Offering</h1>
+          <p><a href="{% url 'snack_create' %}">Provide The Overlord A New Snacking Option</a></p>
+          <p><a href="{% url 'snack_list' %}">Review the Supreme Overlord's Larder Inventory</a></p>
+        </header>
+        <main>
+          {% block content %}
+            <h2>Someone Forgot To Put Content</h2>
+          {% endblock content %}
+        </main>
+        <footer>
+        </footer>
+      </body>
